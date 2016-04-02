@@ -1,0 +1,96 @@
+Temario
+	PRIMERA PARTE
+
+	Introducción PHP
+		Lenguajes cliente y lenguajes servidor
+		Componentes de aplicaciones PHP
+
+	Instalación software necesario
+		Instalación servidor web
+		Instalación extensiones PHP
+		Instalación gestor MySql
+		Instalación Bundle
+
+	Sintaxis PHP
+		HTML y PHP
+		Datos y variables PHP
+		Constantes
+		Operadores
+		Bucles y condicionales
+		Funciones
+		Arrays
+
+	SEGUNDA PARTE
+		
+	MySql
+		El lenguaje SQL
+		Uso de PHPMyAdmin
+		Creación y manejo de BBDD MySql
+		Backup y restauración de datos
+	Conexiones PHP y MySql
+		Consultas a BBDD con funciones PHP
+	Trabajo con formularios
+		Plantillas
+	Tareas frecuentes con PHP
+		Manejo de archivos
+		Manejo de fechas y horas
+		ETC
+	Cookies y sesiones
+	Seguridad
+	Manejo de errores
+	Creación de aplicación práctica completa
+
+
+LENGUAJES DEL LADO DEL CLIENTE VS LENGUAJE DEL LADO DEL SERVIDOR
+
+ejemplos de lenguaje de lado del servidor
+	php
+	jsp
+	perl
+	asp
+
+Que software se necesita:
+	servidor web: appache
+	extensiones php
+	gestor de bbdd mysql
+
+
+Variables
+existen 3 ámbitos de una variable
+
+Local: Declarada dentro de una función. visible y accesible desde dentro de la función.
+Global: Declarada en cualquier lugar del código PHP (dentro o fuera de función). Visible y accesible desde cualquier lugar del código.
+Súper Global: Declarada como Array. Visible y accesible desde fuera del script de php.
+
+Super Global
+
+Declaraciones
+static: constantes
+global: globales
+
+
+
+include()--->agrega archivos,
+.: sirve para concatenar las variables.
+
+En el uso de las comillas es importante diferenciar que el uso de comillas dobles puede contener variables como en el video 8, pero si se usan comillas simples, lo reconocerá de forma literal
+
+
+strcmp(): compara dos string teniendo en cuenta que si tienen mayúsculas y minúsculas
+strcasecmp(): compara dos string obviando si tienen mayúsculas o minúsculas.
+
+Ambas funciones devuelven un 1 cuando es falso.
+
+/***************/
+OPERADORES DE COMPARACION
+
+	== igual que
+	=== idéntica que: Verdadero si las dos variables son iguales y del mismo tipo.
+	!= Diferente que
+	<> Diferente: Verdadero si las  dos variables no son iguales y además no son del mismo tipo.
+	< Menor que
+	> Mayor que
+	<= Menor o igual que
+	>= Mayor o igual que
+
+	isset(): es una función predefinida y sirve para verificar si se hizo click en un boton de enviar del formulario.
